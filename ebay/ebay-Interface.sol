@@ -1,7 +1,7 @@
 pragma solidity ^0.4.4;
 
 //ebay interface for bidders
-interface Auction {
+interface ebayInterface {
     
 	//accept bid
     function bid() public payable;
